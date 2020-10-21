@@ -23,26 +23,25 @@ body {
     white-space: nowrap;
     line-height: 1em;
     animation: scroll 15s linear infinite;
-    }
-    .nakamori-info_txt ul li{
+}
+.nakamori-info_txt ul li{
     display: inline;
     margin: 0 100px 0 0;
-    }
-    .nakamori-info_txt ul li:nth-child(1){
+}
+.nakamori-info_txt ul li:nth-child(1){
     font-weight:bold;
-    }
-    .nakamori-info_txt ul li:nth-child(2){
+}
+.nakamori-info_txt ul li:nth-child(2){
     color:#F00;
-    }
-    .nakamori-info_txt ul li:nth-child(3){
+}
+.nakamori-info_txt ul li:nth-child(3){
     font-style:italic;
+}
+@keyframes scroll{
+    0% {
+        transform: translateX(0);
     }
-    @keyframes scroll{
-        0% {
-            transform: translateX(0);
-        }
-        100% {
-            transform: translateX(-100%);
-        }
+    100% {
+        transform: translateX(-100%);
     }
 }
