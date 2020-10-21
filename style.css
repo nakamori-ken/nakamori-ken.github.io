@@ -1,0 +1,48 @@
+html,
+body {
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+.nakamori-info_txt{
+    margin: 0 auto 40px;
+    width: 100%;
+    font-size: 100px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.nakamori-member ul{
+    list-style: none;
+}
+
+.nakamori-info_txt ul{
+    margin: 0;
+    display: inline-block;
+    padding-left: 100%;
+    white-space: nowrap;
+    line-height: 1em;
+    animation: scroll 15s linear infinite;
+    }
+    .nakamori-info_txt ul li{
+    display: inline;
+    margin: 0 100px 0 0;
+    }
+    .nakamori-info_txt ul li:nth-child(1){
+    font-weight:bold;
+    }
+    .nakamori-info_txt ul li:nth-child(2){
+    color:#F00;
+    }
+    .nakamori-info_txt ul li:nth-child(3){
+    font-style:italic;
+    }
+    @keyframes scroll{
+        0% {
+            transform: translateX(0);
+        }
+        100% {
+            transform: translateX(-100%);
+        }
+    }
+}
